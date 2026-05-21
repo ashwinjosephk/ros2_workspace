@@ -63,5 +63,6 @@
 				"zachflower.uncrustify"
 			]
 		}
-	}
+	},
+	"postStartCommand": "bash .devcontainer/start_desktop.sh"
 }
