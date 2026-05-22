@@ -64,5 +64,6 @@
 			]
 		}
 	},
+	        "postCreateCommand": "cat /workspaces/vscode_ros2_workspace/.devcontainer/bashrc.backup >> ~/.bashrc",
 	"postStartCommand": "bash .devcontainer/start_desktop.sh"
 }
